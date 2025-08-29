@@ -1,0 +1,19 @@
+# Node.js specific ignores
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+logs
+*.log
+*.pid
+*.seed
+*.swo
+
+# React Native specific ignores
+ios/build/
+android/build/
+android/app/build/
+*.iml
+.DS_Store
