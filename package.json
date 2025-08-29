@@ -1,0 +1,27 @@
+{
+  "name": "unified-wishlist",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "app",
+    "server"
+  ],
+  "scripts": {
+    "verify": "npm run verify:app && npm run verify:server",
+    "verify:app": "npm --prefix app run typecheck",
+    "verify:server": "npm --prefix server run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayani2002/Unified-Wishlist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mayani2002/Unified-Wishlist/issues"
+  },
+  "homepage": "https://github.com/mayani2002/Unified-Wishlist#readme"
+}
